@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title>ECV Assignment1</title>
+        <link type="text/css" rel="stylesheet" media="all" href="../css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+        	<div class="header">
+        	     <div class="login_user_info">
+	        		<p>Log in user: </p>
+	        		<div id="current_user_name"></div>
+	        	</div>
+	        	<div>
+        			<input id="inp_create_room" class="input-create-room" type="text" />
+        			<button id="btn_create_room" class="btn_apps">Create Room</button>
+        		</div>
+
+        	</div>
+            <div class="content content-frame" >
+				<div class="main-left" id = "roomsGoHere">
+					<div class="label_avai_room">Rooms</div>
+					
+            	</div>
+            	
+            	<div class="main-right">
+					<div id="msg-area" class="msg-area-disptext">
+						<div class="non_selected_active_room">
+						  Select room to start conversation!
+						  <img src="../images/group.png" alt="" class="img-welcome"/>
+						</div>
+					</div>	
+					
+					<div class="main-private-message">
+					<div id="private-msg-area" class="private-msg-area-disptext">
+						
+					</div>	
+            	</div>
+						
+					<div class="msg-area-input">
+						<textarea id="inp-msg" class="btn_apps input-msg"></textarea>
+						<button id="btn_send" class="btn_apps btn_send">Send</button>
+           			</div>
+            	</div>
+				<div class="main-user-area">
+					<div id="label_current_room" >
+						<div id="label_selected_room" class="label-current-room"></div>
+					</div>
+					<div id="user_list" >
+					</div>
+            	</div>            	
+				
+				            	
+  
+            	
+            </div>
+        </div>
+
+		<script type="text/javascript" src="../javascript/sillyclient.js"></script>
+		<script type="text/javascript" src="../javascript/List_Available_Rooms.js"></script>
+		<script type="text/javascript" src="../javascript/display_messages.js"></script>
+		<script type="text/javascript" src="../javascript/event_handlers.js"></script>
+		<script type="text/javascript" src="../javascript/index.js"></script>
+		
+    </body>
+</html>
+
+
