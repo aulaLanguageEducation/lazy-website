@@ -1,4 +1,4 @@
-/*!
+img-bubble/*!
  * Milligram v1.3.0
  * https://milligram.github.io
  *
@@ -289,6 +289,13 @@ input[type='radio'] {
   width: 100%;
   display: flex;
   justify-content: center;
+
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 a {
@@ -587,7 +594,7 @@ h1 {
 }
 
 .input-create-room{
-	width: 300px !important;
+	width: 500px !important;
 	border-color: gray !important;
 }
 
@@ -664,7 +671,11 @@ h1 {
 }
 
 .img-bubble{
-	width: 60%;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  align-items: center;
 	
 }
 
