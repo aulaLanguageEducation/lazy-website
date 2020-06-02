@@ -1,6 +1,6 @@
 // stuff for welcomepage
 
-
+/*
 var btnEnter = document.getElementById("btn_enter");
 btnEnter.addEventListener('click', function (e) {
     //Send message to current room.
@@ -11,7 +11,7 @@ btnEnter.addEventListener('click', function (e) {
     }else{
         alert("Please enter a username")
     }
-});
+});*/
 
 
 
