@@ -1,0 +1,75 @@
+:root {
+    --color_0: 255,255,255;
+    --color_1: 255,255,255;
+    --color_2: 0,0,0;
+    --color_3: 237,28,36;
+    --color_4: 0,136,203;
+    --color_5: 255,203,5;
+    --color_6: 114,114,114;
+    --color_7: 176,176,176;
+    --color_8: 255,255,255;
+    --color_9: 114,114,114;
+    --color_10: 176,176,176;
+    --color_11: 255,255,255;
+    --color_12: 232,230,230;
+    --color_13: 199,199,199;
+    --color_14: 89,89,89;
+    --color_15: 51,51,51;
+    --color_16: 229,240,254;
+    --color_17: 200,224,254;
+    --color_18: 0,87,225;
+    --color_19: 0,58,150;
+    --color_20: 0,29,75;
+    --color_21: 249,197,180;
+    --color_22: 243,167,143;
+    --color_23: 237,88,41;
+    --color_24: 158,59,27;
+    --color_25: 79,29,14;
+    --color_26: 210,172,247;
+    --color_27: 186,131,240;
+    --color_28: 128,21,232;
+    --color_29: 85,14,155;
+    --color_30: 43,7,77;
+    --color_31: 177,211,187;
+    --color_32: 127,168,139;
+    --color_33: 64,124,81;
+    --color_34: 43,83,54;
+    --color_35: 21,41,27;
+    --font_0: normal normal normal 60px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_1: normal normal normal 16px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --font_2: normal normal normal 40px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_3: normal normal normal 38px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_4: normal normal normal 35px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_5: normal normal normal 27px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_6: normal normal normal 25px/1.4em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    --font_7: normal normal normal 22px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_8: normal normal normal 16px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_9: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+    --font_10: normal normal normal 12px/1.4em din-next-w01-light,din-next-w02-light,din-next-w10-light,sans-serif;
+    --wix-ads-height: 50px;
+    --wix-ads-top-height: 50px;
+    --site-width: 980px;
+    --above-all-z-index: 100000;
+    --minViewportSize: 320;
+    --maxViewportSize: 1920;
+
+body, html {
+    height: 100%;
+}
+
+a, abbr, acronym, address, applet, b, big, blockquote, body, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+
+html {
+    display: block;
+}

@@ -18,7 +18,7 @@ class UrlForm(Form):
 
 @app.route('/')
 def index(error=None):
-    r = make_response(render_template('gapfiller_home.html', error=error))
+    r = make_response(render_template('wix_home.html', error=error))
     r.headers.set('Strict-Transport-Security', 'max-age=31536000; includeSubDomains')
     r.headers.set('Content-Security-Policy', "default-src 'self'")
     r.headers.set('X-Content-Type-Options', 'nosniff')
