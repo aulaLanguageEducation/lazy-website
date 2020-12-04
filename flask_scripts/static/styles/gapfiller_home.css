@@ -297,6 +297,22 @@ input[type='radio'] {
   text-align: center;
   min-height: 100vh;
 }
+.flash_message {
+color: aliceblue;
+  margin: 0 auto;
+  max-width: 112.0rem;
+  padding: 0 2.0rem;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
 
 a {
   color: #55b6b7;
