@@ -10,25 +10,15 @@
         <div class="container-log-in">
         	<div>
                 <img src="/static/chat_bubble.png" alt="" class="img-bubble"/>
-                <form action="/url_input" method="POST">
-                    <div class="form-group">
-                        <input id="inp_url" name="inp_url" class="input-create-room" type="inp_url" placeholder="Enter URL" />
-                    </div>
+        		<input id="inp_username" class="input-create-room" type="text" placeholder="Enter URL" />
 
-                    <div class = Welcome-text->
-                        <input type="submit" class="btn_apps" value="GO!">
-                    </div>
-                </form>
-
-                        {% for message in get_flashed_messages() %}
-                        <div style="flash_message">
-                            <p style="flash_message">{{ message }}</p>
-                        </div>
-                        {% endfor %}
+                <div class = Welcome-text->
+                    <form action="/mainbutton/" method="post">
+    <                   <button id="run-url" class="btn_apps">GO!</button>
+                    </form>
 
                     <p>Welcome to the lazy company!!!</p>
                     <p>To create a lazy gap filler worksheet paste a URL into the box above and press go!</p>
-
                 </div>
         	</div>
         </div>

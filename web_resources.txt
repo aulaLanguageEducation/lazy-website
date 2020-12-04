@@ -1,0 +1,2 @@
+Deploy ML using docker with flask API:
+https://medium.com/analytics-vidhya/deploy-your-machine-learning-model-on-docker-part-2-d9795fca6795
