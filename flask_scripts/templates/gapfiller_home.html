@@ -2,14 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-        <title>the Lazy co.</title>
+        <title>Lazy Worksheets</title>
         <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/gapfiller_home.css') }}">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
     </head>
     <body>
         <div class="container-log-in">
         	<div>
-                <img src="/static/chat_bubble.png" alt="" class="img-bubble"/>
+                <img src="/static/lazy_logo.png" alt="" class="img-bubble"/>
+                <p>Do you want to develop and improve your English through using real news stories?</p>
+                <p>Lazy Worksheets can help you!</p>
+                <br/>
+                <p>1. Find an interesting news article!</p>
+                <p>2. Paste the URL below.</p>
+                <p>3. Click "GO!" to create your Lazy Worksheet!</p>
+                <br/>
                 <form action="/url_input" method="POST">
                     <div class="form-group">
                         <input id="inp_url" name="inp_url" class="input-create-room" type="inp_url" placeholder="Enter URL" />
@@ -25,15 +32,9 @@
                             <p style="flash_message">{{ message }}</p>
                         </div>
                         {% endfor %}
-
-                    <p>Welcome to the lazy company!!!</p>
-                    <p>To create a lazy gap filler worksheet paste a URL into the box above and press go!</p>
-
                 </div>
         	</div>
         </div>
 
     </body>
 </html>
-
-
